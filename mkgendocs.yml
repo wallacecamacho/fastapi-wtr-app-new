@@ -1,0 +1,8 @@
+sources_dir: docs
+templates_dir: docs/templates
+repo: https://github.com/LouisdeBruijn/Medium
+version: master
+
+pages:
+  - page: "core/utils/database.md"
+    source: "app/core/utils/database.py"
