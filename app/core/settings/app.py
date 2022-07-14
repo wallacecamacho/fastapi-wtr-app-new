@@ -23,7 +23,7 @@ class AppSettings(BaseAppSettings):
 
     secret_key: SecretStr
 
-    api_prefix: str = ''
+    api_prefix: str = '/api'
 
     jwt_token_prefix: str = 'Token'
 
