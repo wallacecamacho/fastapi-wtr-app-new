@@ -18,4 +18,4 @@ RUN pip install poetry==1.1 && \
 COPY . ./
 
 #CMD poetry run alembic upgrade head && \
-CMD   poetry run uvicorn --host=0.0.0.0 app.main:app
+CMD   poetry run uvicorn --host=0.0.0.0 app.app:app
