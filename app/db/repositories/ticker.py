@@ -14,7 +14,7 @@ class TickerRepository:
         try:
             stock = Stocks(ticker, start=start, end=end)
             stock_return = {
-                'news': stock.news,
+                #'news': stock.news,
                 'tickers': stock.tickers
             }
             return stock_return

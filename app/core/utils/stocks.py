@@ -42,7 +42,7 @@ class Stocks:
                     )
                 hist[x]['Date'] = hist[x].index.to_pydatetime()
                 hist[x] = hist[x].to_dict(orient='records')
-                news[x] = tickersObj.tickers[x].news
+                #news[x] = tickersObj.tickers[x].news
             self.tickers = hist
             self.news = news
 
